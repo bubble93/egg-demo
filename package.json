@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "egg-bin": "^4.13.0",
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "egg": "^2.22.2",
+    "egg-view-nunjucks": "^2.2.0"
+  }
 }
